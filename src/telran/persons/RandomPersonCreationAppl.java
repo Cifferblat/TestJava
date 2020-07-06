@@ -40,7 +40,7 @@ public class RandomPersonCreationAppl {
 		
 		PersonsRepository repo = ctx.getBean(PersonsRepository.class);
 		
-		String str = "Hello!";
+//		String str = "Hello!";
 		
 		repo.saveAll(persons);
 	}
